@@ -1,0 +1,8 @@
+Architecture du Projet :
+
+Frontend : React
+Backend : FastAPI
+ML : Scikit-learn + XGBoost
+Explainability : SHAP
+Storage : Local (runs)
+Déploiement : Docker + Render
