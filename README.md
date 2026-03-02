@@ -93,4 +93,4 @@ Dockerisation & Déploiement Cloud
 
 Validation Expérimentale
 
-Rédaction et Soutenance
+Rédaction et Soutenance"# automl-platform" 
