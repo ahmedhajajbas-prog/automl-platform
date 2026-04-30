@@ -1,96 +1,56 @@
-Plateforme Web AutoML Intelligente
- Projet de Fin d'Études (PFE)
- Titre du Projet
+# 🚀 AI Platform – AutoML & Code Migration
 
-Conception et Développement d’une Plateforme Web AutoML Intelligente pour l’Analyse Automatique de Données, la Sélection Optimisée de Modèles et l’Aide à la Décision avec Explicabilité et Déploiement Cloud
+## 📌 Description
 
- Objectif du Projet
+Ce projet est une plateforme intelligente développée dans le cadre d’un PFE, combinant :
 
-L’objectif de ce projet est de développer une plateforme web permettant à un utilisateur d’uploader un dataset (CSV) afin de :
+- 🤖 **AutoML** : automatisation complète du pipeline Machine Learning
+- 🔄 **Migration de code** : analyse et transformation de code Java
 
-Effectuer une analyse exploratoire automatique des données (EDA)
+---
 
-Détecter automatiquement le type de problème (classification ou régression)
+## 🧠 Modules principaux
 
-Appliquer un prétraitement automatique
+### 🔹 1. AutoML
 
-Entraîner plusieurs modèles de Machine Learning
+Le module AutoML permet de :
 
-Optimiser les hyperparamètres (Cross-Validation)
+- Upload dataset (CSV / Excel)
+- Analyse exploratoire (EDA)
+- Analyse des features
+- Détection automatique (classification / regression)
+- Entraînement de plusieurs modèles
+- Comparaison (leaderboard)
+- Sélection du meilleur modèle
+- Feature importance
+- Prédiction via API
+- Génération de rapports avec LLM
 
-Sélectionner le meilleur modèle
+---
 
-Expliquer les résultats (Explainable AI - SHAP)
+### 🔹 2. Migration de code
 
-Générer un rapport automatique
+- Analyse de code Java
+- Application de règles de transformation
+- Génération de code migré
+- Évaluation de la qualité
 
-Déployer la solution sur le Cloud
+---
 
- Outils Utilisés
- Backend
+## 🏗️ Architecture
 
-Python
+### Backend
+- FastAPI
+- Scikit-learn
+- Optuna (hyperparameter tuning)
+- SHAP (explainability)
+- LLM integration
 
-FastAPI
+### Frontend
+- React (Vite)
+- Axios
+- Recharts (visualisation)
 
- Machine Learning
+---
 
-Scikit-learn
-
-XGBoost
-
- Analyse & Prétraitement
-
-Pandas
-
-NumPy
-
- Optimisation
-
-RandomizedSearchCV
-
-Cross-Validation
-
- Explainable AI
-
-SHAP
-
- Frontend
-
-React
-
-Chart.js
-
- Déploiement
-
-Docker
-
-Render (Cloud)
-
- Versionnement
-
-Git
-
-GitHub
-
- Phases du Projet
-
-Analyse et Conception
-
-Développement Backend (Upload + EDA)
-
-Prétraitement Automatique
-
-Implémentation AutoML (Multi-modèles + Tuning)
-
-Explainable AI (SHAP)
-
-Développement Frontend
-
-Génération Rapport Automatique
-
-Dockerisation & Déploiement Cloud
-
-Validation Expérimentale
-
-Rédaction et Soutenance"# automl-platform" 
+## 📁 Structure du projet

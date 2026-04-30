@@ -1,0 +1,29 @@
+# ======================
+# Python (backend)
+# ======================
+backend/.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+
+# ======================
+# Data / runs
+# ======================
+backend/data/
+backend/app/runs/
+backend/app/automl/data/
+
+# ======================
+# Node / React (frontend)
+# ======================
+frontend/node_modules/
+frontend/dist/
+
+# ======================
+# IDE / OS
+# ======================
+.vscode/
+.idea/
+.DS_Store
